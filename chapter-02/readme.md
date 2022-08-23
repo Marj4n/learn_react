@@ -1,10 +1,10 @@
 # Chapter 2 : Emerging JavaScript
 
-If you haven't made the switch to the latest JavaScript syntax yet, now is a good time to get started.
+Jika Anda belum tau sintaks JavaScript terbaru, sekarang adalah saat yang tepat untuk memulai.
 
 ## Samples
 
-### Declaring Variables in ES6
+### Deklarasi Variabel di ES6
 
 #### const
 
