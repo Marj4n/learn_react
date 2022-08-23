@@ -1,4 +1,4 @@
-# Learning React: Second Edition ⚛️
+# Learning React ⚛️
 
 ### Daftar Isi
 
