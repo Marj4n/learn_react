@@ -1,6 +1,6 @@
 # Learning React: Second Edition ⚛️
 
-### Table of Contents
+### Daftar Isi
 
 - **Chapter 1** : [Welcome To React](https://github.com/Nivth/Learning_React/tree/main/chapter-01)
 - **Chapter 2** : [Emerging JavaScript](https://github.com/Nivth/Learning_React/tree/main/chapter-02)

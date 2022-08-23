@@ -1,76 +1,76 @@
 # Chapter 1 : Introduction
 
-The widespread use of React on large websites shows that it is stable enough to use at scale. React is ready.
+Meluasnya penggunaan React di situs web besar menunjukkan bahwa React cukup stabil untuk digunakan dalam skala besar. React is ready.
 
-## Installing Node.js and NPM
+## Instal Node.js dan NPM
 
-When working with Node and React, you will need to use the command line. On the Mac, this is called the Terminal. On a PC,
-it is called the Command Prompt. Run the following commands to check your current version on node and npm. If needed,
-instructions on how to install or upgrade are below.
+Saat bekerja dengan Node dan React, Anda harus menggunakan command line. Di Mac, ini disebut Terminal. Di Windows,
+itu disebut Command Prompt. Jalankan perintah berikut untuk memeriksa versi Anda saat ini pada node dan npm. Jika diperlukan,
+petunjuk tentang cara menginstal atau mengupdate ada di bawah.
 
-First, check to see if you have Node.js installed:
+Pertama, periksa apakah Anda telah menginstal Node.js:
 
 ```
 $ node -v
 ```
 
-If this returns a version number, Node.js is installed. If the command is not found, you'll need to [install Node.js](https://nodejs.org/en/) from the Node.js website. Download the installer, run it, and follow the instructions.
+Jika ini mengembalikan nomor versi, Node.js ter-instal. Jika command tidak ditemukan, Anda Harus [instal Node.js](https://nodejs.org/en/) dari situs web Node.js. Download installer, jalankan, dan ikuti instruksi.
 
 ---
 
-Next, check your version of npm:
+Selanjutnya, periksa versi npm Anda:
 
 ```
 $ npm -v
 ```
 
-Then, if you are running anything less than version 8, you will need to update npm:
+Kemudian, jika Anda menjalankan dan kurang dari versi 8, Anda perlu update npm:
 
-### Update npm on Mac
+### Update npm di Mac
 
 ```
 $ sudo npm update -g npm
 ```
 
-### Update npm on PC
+### Update npm di Windows
 
-Make sure to run the Command Prompt with administrator privileges:
+Pastikan untuk menjalankan Command Prompt dengan administrator:
 
 ```
 $ npm update -g npm
 ```
 
-##### Optionally install Yarn
+##### Opsional instal Yarn
 
-Yarn is a package manager created at Facebook. It is a compatible alternative to npm. Yarn's use is not required,
-but you can optionally install it if you like:
+Yarn adalah package manager yang di buat oleh Facebook. Ini adalah alternatif yang kompatibel untuk npm. Yarn tidak diperlukan,
+tetapi Anda dapat menginstalnya secara opsional jika Anda suka:
 
 ```
 $ sudo npm install -g yarn
 ```
 
-Finally, there are some nice options for switching Node versions. This is not required, but you can
-optionally install one of these version mangers:
+Terakhir, ada beberapa opsi bagus untuk mengganti versi Node. Ini tidak wajib, tetapi Anda bisa
+opsional instal salah satu pengelola versi ini:
 
-- [Install Node Version Manager - mac only (optional)](https://github.com/creationix/nvm)
-- [Install NVM-Windows - pc only (optional)](https://github.com/coreybutler/nvm-windows)
+- [Install Node Version Manager - Mac only (opsional)](https://github.com/creationix/nvm)
+- [Install NVM-Windows - Windows only (opsional)](https://github.com/coreybutler/nvm-windows)
 
 ---
 
-## Installing the React Tools
+## Instal React Tools
 
-Next, install the React developer tools:
+Selanjutnya, instal React developer tools:
 
 - Development Tools ([Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) |
   [Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/))
 
-## Working with the Files
+## Bekarja dengan Files
 
-This repository links to samples hosted on various platforms, so that you can immediately begin interacting with the files. For smaller samples, we've linked to JSBins to allow you to run the sample with limited overhead. We also have links to CodeSandboxes and other repos if the samples are more in-depth.
+Repositori ini menautkan ke sampel yang dihosting di berbagai platform, sehingga Anda dapat segera mulai berinteraksi dengan file. Untuk sampel kecil, kami telah menautkan ke JSBins memungkinkan Anda menjalankan sampel dengan tidak terbatas. Kami juga memiliki tautan ke CodeSandboxes dan repo lainnya jika sampelnya lebih mendalam.
 
 ## React Resources
 
-Finally, we have some links to resources and official documentation for the libraries that we will be using:
+Terakhir, kami memiliki beberapa tautan ke resources dan dokumentasi resmi untuk perpustakaan yang akan kami gunakan:
 
 - [React Documentation](https://facebook.github.io/react/index.html)
 - [React Source](https://github.com/facebook/react)
