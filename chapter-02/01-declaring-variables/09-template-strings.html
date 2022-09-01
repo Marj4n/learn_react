@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
-    <meta charset="utf-8">
+  <head>
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
     <title>Template Strings</title>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-</head>
-<body>
-<h1>Template Strings</h1>
-<p>Buka console</p>
-<script type="text/babel">
+  </head>
+  <body>
+    <h1>Template Strings</h1>
+    <p>Buka console</p>
+    <script type="text/babel">
+      const lastName = "Kurniawan";
+      const middleName = "William";
+      const firstName = "Asep";
 
-    var lastName = "Ferrell"
-    var middleName = "William"
-    var firstName = "John"
+      var ticketAgent = "The iO Theater";
+      var event = "Rizek president";
+      var qty = 2;
+      var price = 10;
 
-    var ticketAgent = "The iO Theater"
-    var event = "TJ & Dave"
-    var qty = 2
-    var price = 10
+      // ES6 template strings tidak mengabaikan spasi / whitespace
 
-    // ES6 template strings tidak mengabaikan spasi / whitespace
+      console.log(`
 
-    console.log(`
+    Halo ${firstName},
 
-    Hello ${firstName},
+    Terima kasih telah memesan tiket ${qty} ke ${event}.
 
-    Thanks for ordering ${qty} tickets to ${event}.
-
-    Order Details
+    Detail pesanan
+    
      ${firstName} ${middleName} ${lastName}
-     ${qty} x $${price} = $${qty*price} to ${event}
+     ${qty} x $${price} = $${qty * price} ke ${event}
 
-    You can pick your tickets up at will call 30 minutes before
-    the show.
+    Anda dapat mengambil tiket sesuka hati, menelepon 30 
+    menit sebelum pertunjukan.
 
-    Thanks,
+    Terima Kasih,
 
     ${ticketAgent}
 
-    `)
-
-</script>
-</body>
+    `);
+    </script>
+  </body>
 </html>

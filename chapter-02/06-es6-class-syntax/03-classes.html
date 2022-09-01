@@ -22,7 +22,7 @@
         }
 
         print() {
-          console.log(`${this.destination} will take ${this.length} days.`);
+          console.log(`${this.destination} akan memakan waktu ${this.length} hari.`);
         }
       }
 
@@ -34,13 +34,12 @@
 
         print() {
           super.print();
-          console.log(`bring your ${this.gear.join(" and your ")}`);
+          console.log(`bawa ${this.gear.join(" dan ")} mu`);
         }
       }
 
-      const trip = new Expedition("Mt. Whitney", 3, [
-        "sunglasses",
-        "prayer flags",
+      const trip = new Expedition("Gunung Whitney", 3, [
+        "kacamata",
         "camera",
       ]);
 

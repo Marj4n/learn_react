@@ -10,7 +10,7 @@
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   </head>
   <body>
-    <h1>Spread Operator</h1>
+    <h1>Spread Operator ( Operator Penyebaran )</h1>
     <p>Buka console</p>
     <script type="text/babel">
       // Konversikan argumen ke array dengan operator spread
@@ -20,10 +20,10 @@
         var [start, ...remaining] = args;
         var [finish, ...stops] = remaining.reverse();
 
-        console.log(`drive through ${args.length} towns`);
-        console.log(`start in ${start}`);
-        console.log(`the destination is ${finish}`);
-        console.log(`stopping ${stops.length} times in between`);
+        console.log(`berkendara melalui ${args.length} kota`);
+        console.log(`mulai di ${start}`);
+        console.log(`tujuannya adalah ${finish}`);
+        console.log(`berhenti ${stops.length} kali di antaranya`);
       }
 
       directions("Truckee", "Tahoe City", "Sunnyside", "Homewood", "Tahoma");
