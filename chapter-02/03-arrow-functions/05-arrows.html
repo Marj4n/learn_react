@@ -17,17 +17,17 @@
 
       var lordify = function (firstName, land) {
         if (!firstName) {
-          throw new Error("A firstName is required to lordify");
+          throw new Error("Nama depan diperlukan untuk lordify");
         }
 
         if (!land) {
-          throw new Error("A lord must have a land");
+          throw new Error("Seorang tuan harus memiliki nama panggilan");
         }
 
-        return `${firstName} of ${land}`;
+        return `${firstName} si ${land}`;
       };
 
-      console.log(lordify("Kelly", "Sonoma"));
+      console.log(lordify("Kelly", "Penjamshoot"));
       console.log(lordify("Dave"));
     </script>
   </body>

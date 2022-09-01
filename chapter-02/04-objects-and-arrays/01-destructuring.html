@@ -13,24 +13,24 @@
     <h1>Destructuring</h1>
     <p>Buka console</p>
     <script type="text/babel">
-      // Destructuring Assignment
+      // Destructuring Assignment (Menghancurkan Assignment)
 
       var sandwich = {
-        bread: "dutch crunch",
-        meat: "tuna",
-        cheese: "swiss",
-        toppings: ["lettuce", "tomato", "mustard"],
+        roti: "sari roti",
+        daging: "tuna",
+        keju: "swiss",
+        toping: ["selada", "tomat", "mastard"],
       };
 
-      var { bread, meat } = sandwich;
+      var { roti, daging } = sandwich;
 
-      console.log(bread, meat);
+      console.log(roti, daging);
 
-      bread = "garlic";
-      meat = "turkey";
+      roti = "Bawang putih";
+      daging = "Turki";
 
-      console.log(bread, meat);
-      console.log(sandwich.bread, sandwich.meat);
+      console.log(roti, daging);
+      console.log(sandwich.roti, sandwich.daging);
     </script>
   </body>
 </html>
