@@ -13,12 +13,14 @@
   </head>
   <body>
     <h1>Pure Functions</h1>
+    <h2>Fungsi Murni</h2>
+    <hr />
     <div id="react-container"></div>
     <script type="text/babel">
-      const Header = props => <h1>{props.title}</h1>;
+      const Header = (props) => <h1>{props.title}</h1>;
 
       ReactDOM.render(
-        <Header title="React uses pure functions" />,
+        <Header title="React menggunakan fungsi murni" />,
         document.getElementById("react-container")
       );
     </script>
