@@ -7,7 +7,7 @@ tiba saatnya untuk men-debug.
 
 ### Page Setup
 
-1. HTML Document Setup ([code](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/01-page-setup/01-page-setup.html))
+1. HTML Document Setup ([code](https://github.com/Nivth/Learning_React/blob/main/chapter-04/01-page-setup/01-page-setup.html))
 2. HTML untuk Resep ([jalankan](https://github.com/MoonHighway/learning-react/blob/master/chapter-04/01-page-setup/02-baked-salmon.html))
 
 ### React Elements
